@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cold Email Swipe File PRO — 60 Proven Templates</title>
+  <meta name="description" content="60 battle-tested cold email templates across 10 industries. Copy-paste formulas that get replies. Instant download.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cold Email Swipe File PRO — 60 Templates">
+  <meta name="twitter:description" content="Stop guessing. Start getting replies. 60 proven cold email templates for AI automation agencies and freelancers.">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0a0a0f;
+      color: #e0e0e0;
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* Animated gradient background */
+    .gradient-bg {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: -1;
+      background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 25%, #0a1a2e 50%, #0a0a1a 75%, #2a0a1a 100%);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      25% { background-position: 50% 0%; }
+      50% { background-position: 100% 50%; }
+      75% { background-position: 50% 100%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Floating orbs */
+    .orb {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.15;
+      z-index: -1;
+      animation: orbFloat 20s ease-in-out infinite;
+    }
+    .orb-1 {
+      width: 600px; height: 600px;
+      background: #7c3aed;
+      top: -200px; right: -200px;
+    }
+    .orb-2 {
+      width: 500px; height: 500px;
+      background: #06b6d4;
+      bottom: -200px; left: -200px;
+      animation-delay: -7s;
+    }
+    .orb-3 {
+      width: 400px; height: 400px;
+      background: #f59e0b;
+      top: 40%; left: 30%;
+      animation-delay: -14s;
+      opacity: 0.08;
+    }
+
+    @keyframes orbFloat {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -40px) scale(1.1); }
+      66% { transform: translate(-20px, 30px) scale(0.9); }
+    }
+
+    /* Grid overlay */
+    .grid-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: -1;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Navigation */
+    nav {
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: 800;
+      font-size: 1.3rem;
+      background: linear-gradient(135deg, #7c3aed, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .nav-links a {
+      color: #a0a0b0;
+      text-decoration: none;
+      margin-left: 28px;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #7c3aed; }
+
+    /* Hero */
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: rgba(124, 58, 237, 0.15);
+      border: 1px solid rgba(124, 58, 237, 0.3);
+      border-radius: 100px;
+      padding: 6px 18px;
+      font-size: 0.8rem;
+      color: #a78bfa;
+      margin-bottom: 28px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.2rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 .gradient {
+      background: linear-gradient(135deg, #7c3aed, #06b6d4, #f59e0b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      color: #8888a0;
+      max-width: 680px;
+      margin: 0 auto 36px;
+      line-height: 1.7;
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 44px;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #7c3aed, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: #8888a0;
+      margin-top: 4px;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: linear-gradient(135deg, #7c3aed, #6d28d9);
+      color: #fff;
+      padding: 16px 44px;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(124, 58, 237, 0.4);
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      background: rgba(255,255,255,0.05);
+      color: #c0c0d0;
+      padding: 16px 44px;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.1);
+      margin-left: 12px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(255,255,255,0.2);
+    }
+
+    .hero-cta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-cta .price-tag {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #f59e0b;
+    }
+
+    .hero-cta .price-note {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    /* Sections common */
+    section {
+      padding: 80px 0;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #8888a0;
+      max-width: 600px;
+      margin: 0 auto 48px;
+      font-size: 1.05rem;
+    }
+
+    /* What's Inside */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    .feature-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 28px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .feature-card:hover {
+      border-color: rgba(124, 58, 237, 0.3);
+      transform: translateY(-3px);
+    }
+
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 14px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #f0f0f5;
+    }
+
+    .feature-card p {
+      color: #8888a0;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .feature-tag {
+      display: inline-block;
+      background: rgba(124, 58, 237, 0.12);
+      color: #a78bfa;
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 6px;
+      margin-top: 12px;
+      font-weight: 600;
+    }
+
+    /* Industries */
+    .industries-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .industry-chip {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 10px;
+      padding: 14px 18px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #c0c0d0;
+      text-align: center;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .industry-chip:hover {
+      border-color: rgba(124, 58, 237, 0.3);
+      background: rgba(124, 58, 237, 0.05);
+    }
+    .industry-chip .count {
+      display: block;
+      font-size: 0.7rem;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    /* Template Preview */
+    .template-preview {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .template-preview .subject {
+      color: #f59e0b;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
+    .template-preview .email-body {
+      color: #a0a0b0;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      white-space: pre-line;
+    }
+
+    .template-preview .copy-hint {
+      margin-top: 16px;
+      color: #666;
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+
+    /* Pricing */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .pricing-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 20px;
+      padding: 36px;
+      text-align: center;
+      transition: border-color 0.2s, transform 0.2s;
+      position: relative;
+    }
+
+    .pricing-card.featured {
+      border-color: rgba(124, 58, 237, 0.4);
+      background: rgba(124, 58, 237, 0.04);
+    }
+    .pricing-card.featured::before {
+      content: 'Best Value';
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(135deg, #7c3aed, #6d28d9);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 18px;
+      border-radius: 100px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .pricing-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .pricing-card .product-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .pricing-card .product-desc {
+      color: #8888a0;
+      font-size: 0.85rem;
+      margin-bottom: 20px;
+    }
+
+    .pricing-card .price {
+      font-size: 2.8rem;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .pricing-card .price-note {
+      color: #666;
+      font-size: 0.85rem;
+      margin-bottom: 24px;
+    }
+
+    .pricing-card .savings {
+      color: #34d399;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .pricing-card .btn-primary {
+      padding: 14px 36px;
+      font-size: 1rem;
+    }
+
+    .pricing-card ul {
+      list-style: none;
+      text-align: left;
+      margin: 20px 0;
+    }
+
+    .pricing-card ul li {
+      padding: 6px 0;
+      font-size: 0.85rem;
+      color: #a0a0b0;
+    }
+
+    .pricing-card ul li::before {
+      content: '✓ ';
+      color: #34d399;
+      font-weight: 700;
+    }
+
+    /* Email Capture */
+    .email-capture {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(124, 58, 237, 0.2);
+      border-radius: 20px;
+      padding: 48px;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .email-capture h3 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .email-capture p {
+      color: #8888a0;
+      margin-bottom: 24px;
+    }
+
+    .email-capture .input-group {
+      display: flex;
+      gap: 10px;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+
+    .email-capture input {
+      flex: 1;
+      padding: 14px 20px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.05);
+      color: #fff;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .email-capture input:focus {
+      border-color: #7c3aed;
+    }
+    .email-capture input::placeholder {
+      color: #555;
+    }
+
+    .email-capture .btn-primary {
+      padding: 14px 28px;
+      font-size: 0.95rem;
+      white-space: nowrap;
+    }
+
+    /* FAQ */
+    .faq-list {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding: 20px 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: #e0e0f0;
+      margin-bottom: 8px;
+    }
+
+    .faq-answer {
+      color: #8888a0;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #555;
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255,255,255,0.04);
+    }
+
+    footer a {
+      color: #7c3aed;
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-stats { gap: 20px; }
+      .hero-cta { flex-direction: column; }
+      .btn-secondary { margin-left: 0; }
+      .nav-links { display: none; }
+      .email-capture .input-group { flex-direction: column; }
+      .pricing-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="gradient-bg"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="grid-overlay"></div>
+
+  <nav class="container">
+    <div class="logo">Cold Email Swipe File</div>
+    <div class="nav-links">
+      <a href="#templates">Templates</a>
+      <a href="#industries">Industries</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero container">
+    <div class="hero-badge">Updated July 2, 2026 — v2.0</div>
+    <h1>Cold Email Templates That<br><span class="gradient">Actually Get Replies</span></h1>
+    <p>Stop guessing what to write. 60 battle-tested cold email templates across 10 industries — copy, paste, personalize, and watch your reply rates climb.</p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">60</span>
+        <span class="stat-label">Proven Templates</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">10</span>
+        <span class="stat-label">Industries Covered</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">6</span>
+        <span class="stat-label">Template Categories</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">$19</span>
+        <span class="stat-label">One-Time Price</span>
+      </div>
+    </div>
+    <div class="hero-cta">
+      <a href="#pricing" class="btn-primary">📥 Get Instant Access — $19</a>
+      <span class="price-note">Includes lifetime updates • PDF + Markdown</span>
+    </div>
+  </section>
+
+  <!-- What's Inside -->
+  <section id="templates" class="container">
+    <h2 class="section-title">📋 What's Inside</h2>
+    <p class="section-subtitle">Every template includes a proven subject line, writer's framework, and a completion question that gets replies.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">❄️</div>
+        <h3>Cold Outreach Templates</h3>
+        <p>Problem-aware, referral intros, case study openers, industry insights, direct value props, CEO shortcuts, competitive edge — 14 templates for first contact.</p>
+        <span class="feature-tag">14 templates</span>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔄</div>
+        <h3>Follow-Up Sequences</h3>
+        <p>7 follow-up templates including value-add, social proof, scarcity, and break-up emails. Each one builds on the last without being annoying.</p>
+        <span class="feature-tag">7 templates</span>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <h3>Partnership & Referral</h3>
+        <p>Strategic partnership, co-marketing, affiliate, referral partner, and white-label reseller templates designed for long-term revenue.</p>
+        <span class="feature-tag">6 templates</span>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Demo & Sales Call</h3>
+        <p>Free audit offers, demo invitations, case study sharing, pilot proposals, and ROI calculator lead-ins that warm prospects before the call.</p>
+        <span class="feature-tag">8 templates</span>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <h3>Testimonial & Social Proof</h3>
+        <p>Customer success stories, results-driven case study templates, and social proof emails that leverage existing wins.</p>
+        <span class="feature-tag">5 templates</span>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📦</div>
+        <h3>Product Launch & Re-engagement</h3>
+        <p>New product announcements, re-engagement sequences, reactivation emails, and win-back campaigns for cold audiences.</p>
+        <span class="feature-tag">6 templates</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Template Preview -->
+  <section class="container">
+    <h2 class="section-title">📝 Try a Template</h2>
+    <p class="section-subtitle">Here's one of the 60 templates you'll get — paste it in your next campaign.</p>
+    <div class="template-preview">
+      <div class="subject">📧 Subject: How we saved [Similar Company] $X/year</div>
+      <div class="email-body">
+Hi [Name],
+
+We recently automated [process] for [Similar Company] and they cut costs by [$X] in the first quarter.
+
+I built an AI agent that handles the same type of work. Thought it might be relevant to [Company].
+
+Worth a chat?
+
+Cheers,
+[Your Name]
+      </div>
+      <div class="copy-hint">This is the "Case Study Opener" — one of 60 templates included. Every template follows the same proven structure.</div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section id="industries" class="container">
+    <h2 class="section-title">🏢 10 Industries Covered</h2>
+    <p class="section-subtitle">Tailored templates for the sectors where AI automation sells fastest.</p>
+    <div class="industries-grid">
+      <div class="industry-chip">Real Estate <span class="count">6 templates</span></div>
+      <div class="industry-chip">Legal <span class="count">6 templates</span></div>
+      <div class="industry-chip">Healthcare <span class="count">6 templates</span></div>
+      <div class="industry-chip">E-Commerce <span class="count">6 templates</span></div>
+      <div class="industry-chip">SaaS <span class="count">6 templates</span></div>
+      <div class="industry-chip">Energy & Utilities <span class="count">6 templates</span></div>
+      <div class="industry-chip">Veterinary / Pet Care <span class="count">5 templates</span></div>
+      <div class="industry-chip">Fitness & Wellness <span class="count">5 templates</span></div>
+      <div class="industry-chip">Consulting <span class="count">5 templates</span></div>
+      <div class="industry-chip">General / Multi-Purpose <span class="count">5 templates</span></div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="container">
+    <h2 class="section-title">💰 Pricing</h2>
+    <p class="section-subtitle">One-time purchase. Lifetime updates. Instant download.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="product-name">Cold Email Swipe File</div>
+        <div class="product-desc">Standalone — 60 templates</div>
+        <div class="price">$19</div>
+        <div class="price-note">One-time payment</div>
+        <ul>
+          <li>60 proven templates</li>
+          <li>10 industries</li>
+          <li>6 template categories</li>
+          <li>PDF + Markdown format</li>
+          <li>Lifetime updates</li>
+          <li>Instant download</li>
+        </ul>
+        <a href="#" class="btn-primary" onclick="alert('🚀 Gumroad listing coming live soon! For now, this page shows the product. Contact the creator to purchase early.'); return false;">📥 Buy Now — $19</a>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="product-name">AI Revenue Toolkit Bundle</div>
+        <div class="product-desc">Swipe File + Score Tool + Playbook + ROI Calc</div>
+        <div class="price">$37</div>
+        <div class="price-note">Save $21 (36% off $58)</div>
+        <ul>
+          <li>Everything in Swipe File</li>
+          <li>AI Outreach Score Tool</li>
+          <li>Prompt Engineering Playbook</li>
+          <li>AI ROI Calculator</li>
+          <li>Bonus: Notion template</li>
+          <li>Lifetime updates on all items</li>
+        </ul>
+        <a href="https://tennie321.github.io/ai-revenue-toolkit/" class="btn-primary" target="_blank">🎯 Get Bundle — $37</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <section class="container">
+    <div class="email-capture">
+      <h3>📬 Get 3 Free Templates</h3>
+      <p>Drop your email and we'll send you 3 premium templates plus a bonus cheat sheet. No spam, unsubscribe anytime.</p>
+      <div class="input-group">
+        <input type="email" placeholder="you@company.com" required>
+        <button class="btn-primary" onclick="alert('🚧 Email capture coming soon! This is a placeholder for the upcoming launch list.'); return false;">Send Free Templates →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="container">
+    <h2 class="section-title">❓ FAQ</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">What format are the templates in?</div>
+        <div class="faq-answer">Markdown (.md) and formatted PDF. You can open them in any text editor, Notion, Google Docs, or your email platform. They're clean copy-paste ready.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Who is this for?</div>
+        <div class="faq-answer">Agency owners, freelance AI automation builders, SaaS founders, and anyone who sends cold outreach for AI services. The templates are written specifically for selling AI automation solutions.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Do I need any special tools to use them?</div>
+        <div class="faq-answer">No. Open the markdown file in any text editor, replace the [bracket] fields with your prospect's information, and paste into your email client. A tracking tool like Mailtrack or HubSpot is recommended.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">How are these different from free templates online?</div>
+        <div class="faq-answer">These are specifically written for AI automation services, not generic sales. Every template has a proven subject line pattern, a clear value proposition for AI solutions, and a completion question that drives replies. They're also organized by industry with specific use cases.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">What's the refund policy?</div>
+        <div class="faq-answer">30-day money-back guarantee. If you use 5 templates and don't get a single reply, we'll refund your purchase — no questions asked. Email the creator to request a refund.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Are updates included?</div>
+        <div class="faq-answer">Yes. One purchase gives you lifetime access to all future updates and new industry additions. The v2.0 added 10 new industry sections with 20+ new templates.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <p>Built by <a href="https://github.com/Tennie321">Tennie321</a> · Powered by <a href="https://hermes-agent.nousresearch.com">Hermes Agent</a></p>
+    <p style="margin-top: 6px;">© 2026 Cold Email Swipe File · All rights reserved · <a href="https://tennie321.github.io/ai-revenue-toolkit/">AI Revenue Toolkit</a></p>
+  </footer>
+</body>
+</html>
